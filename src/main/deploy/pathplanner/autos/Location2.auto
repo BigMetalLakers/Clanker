@@ -1,0 +1,55 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "LaunchToDistance"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Loc2Step2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Loc2Step3"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "StopRollers"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Loc2Step4"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LaunchToDistance"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}
